@@ -1,0 +1,126 @@
+/* Index CSS */
+
+.title {
+    color: #02ccba;
+  }
+
+.navigation{
+  width: 100%;
+  height: 60px;
+  background-color: aquamarine;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+    
+
+.navigation ul{
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+.navigation li{
+  margin-right: 55px;
+}
+
+.navigation a{
+  color:black;
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background-image: url(illust/background03.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.wrapper_sub {
+  width: 100%;
+  height: 100%;
+  background-image: url(illust/background03.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+
+/* WORK CSS  */
+
+.nav_tatie img {
+  max-width: 300px;
+  width: 40%;
+  margin: 0 0 auto;
+  position: relative;
+}
+
+.nav_tatie {
+  min-width: 1000px;
+}
+
+.tatie_kai img{
+  max-height: 600px;
+}
+
+.tatie_thia img{
+  max-height: 600px;
+}
+
+.tatie_buran img{
+  max-height: 600px;
+}
+
+.nav_thumnail img {
+  max-width:  75px;
+  width: 60%;
+  margin: 0 0 auto;
+  position: relative;
+}
+
+.detail {
+  background-color: blanchedalmond;
+}
+
+/* gallery CSS */
+
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-box img {
+  vertical-align: top;
+}
+
+.thumnail-left-box {
+  width: 70%;
+  margin: 0;
+  padding: 0 0 2.5%;
+}
+
+.thumnail-left-box img {
+  width: 100%;
+}
+
+.thumnail-right-box {
+  width: 30%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.thumnail-right-box li {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40%;
+  margin: 0 0 0 auto;
+}
+
+.thumnail-right-box li img {
+  width: 100%;
+  margin: 0 0 auto;
+}
